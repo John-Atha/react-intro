@@ -1,9 +1,6 @@
-// "use client";
-
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { WalletKitProvider } from "@mysten/wallet-kit";
 import GlobalProvider from "./GlobalProvider";
 
 const inter = Inter({ subsets: ["latin"] });
